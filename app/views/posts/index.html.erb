@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" class="style">
+    <title>final_app</title>
+</head>
+<body>
+  <div class="background">
+    <div class="main">
+      <div class="main-input">
+        <div class="form">
+         <%= form_with url: "/posts",class: "former", method: :post, local: true do |form| %>
+               <%= form.text_field :content, class: "fields"  %>
+               <%= form.submit '投稿', class: "submit" %>
+         <% end %>
+        </div>
+      </div>
+      <div class="main-text">
+          <% @posts.each do |post| %>
+           <div class="post">
+             <div class="post-content">
+               <%= post.content %>
+             </div>
+           </div>
+          <% end %>
+      </div>
+    </div>
+  </div>
+    
+</body>
+</html>

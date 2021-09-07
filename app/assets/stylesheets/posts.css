@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    min-height: 100vh;
+    background-color: #008080;
+    padding: 50px 0;
+}
+
+.main {
+    width: 800px;
+    background-color: #2f4f4f;
+    margin: 0 auto;
+}
+
+.main-input {
+    padding: 25px 20px;
+    margin: 30px auto 40px;
+    background-color: #006400;
+}
+
+.form-mein {
+    display: flex;
+}
+
+
+
+.submit {
+    width: 80px;
+    text-align: center;
+    border: none;
+    background-color: #228b22;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.main-text {
+    background-color: green;
+    padding: 30px 5px;
+    min-height: 700px;
+    overflow: scroll;
+}
+
+.post {
+    align-items:center;
+}
+
+.post-content {
+    width: 700px;
+    height: 42px;
+    padding: 0 20px;
+    margin: 15px 20px;
+    margin-bottom: 5px;
+    line-height: 42px;
+    background-color: #2e8b57;
+    border: 1px solid #7fffd4; 
+    color: #fff;
+}
+
+.former {
+    display: flex;
+    
+}
+
+.fields{
+    width: 700px;
+    height: 40px;
+    border: none;
+    padding: 0 15px;
+   
+}
+
+form {
+}
+.submit {
+    background-color: #66cdaa;
+    width: 80px;
+    border: none;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.message {
+    width: 300px;
+    height: 120px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #8fbc8f;
+    text-align: center;
+}
